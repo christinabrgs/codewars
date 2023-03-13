@@ -6,10 +6,10 @@ Ignore capitalization when determining if a character is a duplicate. */
 
 function duplicateEncode(str){
 
-    var word = str.toLowerCase();
+    let word = str.toLowerCase();
 
-    var unique = '';
-      for (var i = 0; i < word.length; i++) {
+    let unique = '';
+      for (let i = 0; i < word.length; i++) {
         if (word.lastIndexOf(word[i]) === word.indexOf(word[i])) {
           unique += '(';
         } else
