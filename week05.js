@@ -64,6 +64,7 @@ function squareSum(numbers){
 
 
 /* 3-19
+
 Write a function that takes an array of numbers and returns the sum of the numbers. 
 The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0. */
 
@@ -82,6 +83,7 @@ function sum(numbers) {
 }
 
 /* 3-19 
+
 Create a function with two arguments that will return an array of the first n multiples of x.
 Assume both the given number and the number of times to count will be positive numbers greater than 0.
 Return the results as an array or list ( depending on language ). */
