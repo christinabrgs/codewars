@@ -1,3 +1,3 @@
 # codewar
 
-![alt text](https://github.com/christinabrgs/codewars/tree/main/images/banner.png?raw=true)
+![alt text](https://github.com/christinabrgs/codewars/blob/main/images/banner.png?raw=true)
