@@ -61,3 +61,38 @@ function squareSum(numbers){
     return (n*n) + sum;
   }, 0)
 }
+
+
+/* 3-19
+Write a function that takes an array of numbers and returns the sum of the numbers. 
+The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0. */
+
+
+function sum(numbers) {
+  
+  let total = 0
+  
+  for (i=0; i < numbers.length; i++) {
+    
+    if (typeof numbers[i] !== `number`)  {return 0}   
+    
+    total += numbers[i] 
+  }
+  return total
+}
+
+/* 3-19 
+Create a function with two arguments that will return an array of the first n multiples of x.
+Assume both the given number and the number of times to count will be positive numbers greater than 0.
+Return the results as an array or list ( depending on language ). */
+
+
+function countBy(x, n) {
+  let z = [x];
+  z.length = n
+  
+      for (i = 1; i < z.length; i++) {
+        z[i] = z[i-1] + x
+      }
+  return z;
+}
