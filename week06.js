@@ -40,3 +40,18 @@ function rentalCarCost(d) {
     }
   return total
 }
+
+
+/* 03-23
+Area or Perimeter
+*/
+const areaOrPerimeter = function(l , w) {
+  let perimeter = 2*(l + w)
+  
+  if (l === w) {
+    let area = l **2
+    return area
+  }
+  return perimeter
+     
+};
