@@ -90,9 +90,9 @@ Return the results as an array or list ( depending on language ). */
 function countBy(x, n) {
   let z = [x];
   z.length = n
-  
       for (i = 1; i < z.length; i++) {
         z[i] = z[i-1] + x
       }
   return z;
 }
+
