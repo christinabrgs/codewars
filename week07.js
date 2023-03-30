@@ -54,3 +54,4 @@ function addLength(str) {
   }
   return newArray
 }
+
