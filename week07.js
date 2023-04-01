@@ -55,3 +55,19 @@ function addLength(str) {
   return newArray
 }
 
+
+/* 03 - 31
+This kata is about multiplying a given number by 
+eight if it is an even number and by nine otherwise.
+*/
+
+function simpleMultiplication(number) {
+  let newNumber = 0
+  if (number % 2 === 0) {
+    newNumber = number * 8
+  }
+  else {
+    newNumber = number * 9
+  }
+  return newNumber
+}
