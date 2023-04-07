@@ -32,3 +32,17 @@ function digitize(n) {
   return backwards
 
 }
+
+
+// 04 - 06
+
+function countPositivesSumNegatives(input) {
+    let pos = 0;
+    let neg = 0;
+    if (!input || input.length === 0) {
+      return [];
+    } else {
+      input.forEach((num) => num > 0 ? pos++ : neg += num);
+    }
+    return [pos, neg];
+}
