@@ -1,8 +1,8 @@
-function upperCase(str) {
-    str.split(" ")
-    
-    for(let i=0; i < str.length; i++) {
-        str[i].charAt(0).upperCase()
-    }
-    str.join()
+function upperCase (str) {
+str.split(' ').map(word => word[0].toUpperCase() + word.splice(1))
+
+console.log(str.join(' '))
+
 }
+
+upperCase("How can mirrors be real if our eyes aren't real")
