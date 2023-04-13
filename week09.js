@@ -14,3 +14,11 @@ function isPowerOfTwo(n){
   return Number.isInteger(Math.log2(n));
   
 }
+
+//04 - 13 
+
+var countSheep = function(num) {
+  let arr = Array(num).fill(0);
+  const newArr = arr.map((_, i) => (i+1) + ' sheep...');
+  return newArr.join('');
+}
