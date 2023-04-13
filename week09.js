@@ -15,6 +15,18 @@ function isPowerOfTwo(n){
   
 }
 
+
+// 04 - 12
+
+function fixTheMeerkat(arr) {
+  let newArr = arr[0]
+  arr[0] = arr[2]
+  arr[2] = newArr
+  
+  return arr
+} 
+
+
 //04 - 13 
 
 var countSheep = function(num) {
