@@ -6,3 +6,11 @@
 function sortByLength (array) {
     return array.sort((a, b) => a.length - b.length)
   };
+
+
+// 04-11
+
+function isPowerOfTwo(n){
+  return Number.isInteger(Math.log2(n));
+  
+}
