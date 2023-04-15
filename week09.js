@@ -34,3 +34,9 @@ var countSheep = function(num) {
   const newArr = arr.map((_, i) => (i+1) + ' sheep...');
   return newArr.join('');
 }
+
+// 04 - 14
+
+function greet () {
+  return "hello world!"
+}
