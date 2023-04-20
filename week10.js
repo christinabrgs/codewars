@@ -14,3 +14,13 @@ var summation = function (num) {
  }
  return sum
 }
+
+// 04-19
+
+function stray(numbers) {
+  
+  const sorted = numbers.sort((a, b) => {return a - b})
+  
+  return sorted[0] === sorted[1] ? sorted[sorted.length - 1] : sorted[0]
+  
+}
