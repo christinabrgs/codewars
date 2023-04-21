@@ -24,3 +24,15 @@ function stray(numbers) {
   return sorted[0] === sorted[1] ? sorted[sorted.length - 1] : sorted[0]
   
 }
+
+// 04-20
+
+function getCount(str) {
+  let count = 0
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u')
+    count += 1
+  }
+  
+  return count;
+}
