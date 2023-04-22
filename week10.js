@@ -36,3 +36,9 @@ function getCount(str) {
   
   return count;
 }
+
+// 04-21
+
+function sumNoDuplicates(numList) {
+ return numList.filter(element => numList.indexOf(element) == numList.lastIndexOf(element)).reduce((result, element) => result +element, 0)
+}
