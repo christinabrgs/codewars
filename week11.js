@@ -12,7 +12,11 @@ function factorial(n){
   return result;
 }
 
+// 04-25
 
+function century(year) {
+return Math.ceil(year/100)
+}
 
 
 // 04-26
