@@ -32,3 +32,22 @@ function add(num) {
 function mult(num) {
   return num * 30;
 }
+
+
+// 04/28
+
+function outed(meet, boss){
+  let bossScore = meet[boss]
+  let totalScore = Object.values(meet).reduce((acc, curr) => acc + curr, 0) 
+  
+  let numOfEmployees = 0 
+  
+  for (let key in meet) { 
+    ++numOfEmployees
+  }
+  
+  return (totalScore + bossScore) / numOfEmployees <= 5 ? 'Get Out Now!' : 'Nice Work Champ!'
+
+
+  
+}
