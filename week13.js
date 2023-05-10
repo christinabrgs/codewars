@@ -36,3 +36,14 @@ function span(arr, predicate) {
 
   return [first, rest]
 }
+
+// 04-20
+
+function accum(s) {
+  let array = s.toLowerCase().split('')
+
+ let map = array.map((letter, i, arr) => {
+      return letter.charAt(0).toUpperCase() + letter.repeat(i) + '-'
+  }).join('')
+  return map.substring(0, map.length - 1)
+}
