@@ -16,3 +16,23 @@ function findMultiples(integer, limit) {
   }
   return array
 }
+
+
+// 04 -19
+
+function span(arr, predicate) {
+  let first = [];
+  let rest = [];
+  let foundFailure = false;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (!foundFailure && predicate(arr[i])) {
+      first.push(arr[i]);
+    } else {
+      foundFailure = true;
+      rest.push(arr[i]);
+    }
+  }
+
+  return [first, rest]
+}
