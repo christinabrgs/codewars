@@ -1,5 +1,5 @@
 
-// 04 - 18
+// 05-08
 
 function findMultiples(integer, limit) {
   // taking an integer and returning an array of its multiples up to the limit
@@ -18,7 +18,7 @@ function findMultiples(integer, limit) {
 }
 
 
-// 04 -19
+// 05-09
 
 function span(arr, predicate) {
   let first = [];
@@ -37,7 +37,7 @@ function span(arr, predicate) {
   return [first, rest]
 }
 
-// 04-20
+// 05-10
 
 function accum(s) {
   let array = s.toLowerCase().split('')
@@ -46,4 +46,11 @@ function accum(s) {
       return letter.charAt(0).toUpperCase() + letter.repeat(i) + '-'
   }).join('')
   return map.substring(0, map.length - 1)
+}
+
+// 05-11
+
+function toAcronym(inp){
+  return inp.toUpperCase().split(' ').map(word => word.charAt(0)).join('')
+//     .split(' ').toUpperCase()
 }
