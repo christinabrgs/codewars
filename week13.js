@@ -52,5 +52,20 @@ function accum(s) {
 
 function toAcronym(inp){
   return inp.toUpperCase().split(' ').map(word => word.charAt(0)).join('')
-//     .split(' ').toUpperCase()
+
 }
+
+function reverse(string) {
+
+let array = string.split('')
+let word = ''
+for (let i = array.length - 1; i >= 0; i--) {
+  word =+ array[i] 
+}
+
+return word
+
+}
+
+
+
